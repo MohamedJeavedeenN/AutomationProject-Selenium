@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="94304" started-at="2021-07-20T10:24:40Z" finished-at="2021-07-20T10:26:15Z">
+    <groups>
+      <group name="Suite Run">
+        <method signature="SuiteRun.browserRun()[pri:0, instance:Suite.SuiteRun@28d25987]" name="browserRun" class="Suite.SuiteRun"/>
+      </group> <!-- Suite Run -->
+      <group name="SuiteRun">
+        <method signature="SuiteRun.homepage()[pri:0, instance:Suite.SuiteRun@28d25987]" name="homepage" class="Suite.SuiteRun"/>
+        <method signature="SuiteRun.corporate()[pri:4, instance:Suite.SuiteRun@28d25987]" name="corporate" class="Suite.SuiteRun"/>
+        <method signature="SuiteRun.diagnostics()[pri:3, instance:Suite.SuiteRun@28d25987]" name="diagnostics" class="Suite.SuiteRun"/>
+        <method signature="SuiteRun.hospitalPage()[pri:1, instance:Suite.SuiteRun@28d25987]" name="hospitalPage" class="Suite.SuiteRun"/>
+        <method signature="SuiteRun.hospitalnames()[pri:2, instance:Suite.SuiteRun@28d25987]" name="hospitalnames" class="Suite.SuiteRun"/>
+        <method signature="SuiteRun.quit()[pri:5, instance:Suite.SuiteRun@28d25987]" name="quit" class="Suite.SuiteRun"/>
+      </group> <!-- SuiteRun -->
+    </groups>
+    <test name="Default test" duration-ms="94304" started-at="2021-07-20T10:24:40Z" finished-at="2021-07-20T10:26:15Z">
+      <class name="Suite.SuiteRun">
+        <test-method status="PASS" signature="browserRun()[pri:0, instance:Suite.SuiteRun@28d25987]" name="browserRun" duration-ms="9602" started-at="2021-07-20T15:54:40Z" finished-at="2021-07-20T15:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserRun -->
+        <test-method status="PASS" signature="homepage()[pri:0, instance:Suite.SuiteRun@28d25987]" name="homepage" duration-ms="12050" started-at="2021-07-20T15:54:50Z" depends-on-methods="Suite.SuiteRun.browserRun" finished-at="2021-07-20T15:55:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage -->
+        <test-method status="PASS" signature="hospitalPage()[pri:1, instance:Suite.SuiteRun@28d25987]" name="hospitalPage" duration-ms="19512" started-at="2021-07-20T15:55:02Z" finished-at="2021-07-20T15:55:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hospitalPage -->
+        <test-method status="PASS" signature="hospitalnames()[pri:2, instance:Suite.SuiteRun@28d25987]" name="hospitalnames" duration-ms="24110" started-at="2021-07-20T15:55:22Z" finished-at="2021-07-20T15:55:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hospitalnames -->
+        <test-method status="PASS" signature="diagnostics()[pri:3, instance:Suite.SuiteRun@28d25987]" name="diagnostics" duration-ms="6357" started-at="2021-07-20T15:55:46Z" finished-at="2021-07-20T15:55:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- diagnostics -->
+        <test-method status="PASS" signature="corporate()[pri:4, instance:Suite.SuiteRun@28d25987]" name="corporate" duration-ms="12862" started-at="2021-07-20T15:55:52Z" finished-at="2021-07-20T15:56:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- corporate -->
+        <test-method status="PASS" signature="quit()[pri:5, instance:Suite.SuiteRun@28d25987]" name="quit" duration-ms="9782" started-at="2021-07-20T15:56:05Z" finished-at="2021-07-20T15:56:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- Suite.SuiteRun -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
